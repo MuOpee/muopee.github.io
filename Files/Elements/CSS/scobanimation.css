@@ -1,0 +1,131 @@
+/*
+Template Name: SCOB Exclusive Event Countdown Landing
+Theme URL: http://thinkfrontend.net/html/scob/demo/preview.html
+Description: Landing Page
+Author: Thinkfrontend
+Author URL: http://www.thinkfrontend.net
+Version: 1.0
+Tags: Landing Page, HTML5, CSS3, Bootstrap, Jquery, Exclusive Event Countdown Landing page
+*/
+
+/* ==================================
+              Content
+================================== */
+
+/* ------------------------------------------------------------- */
+/*   01. Base Styles                                             */
+/* ------------------------------------------------------------- */
+/*   01.01 :root Variables                                       */
+/*   01.02 Global Elements (html, body, img etc.)                */
+/*   01.03 General Utilities                                     */
+
+/* ------------------------------------------------------------- */
+/*   02. Typography                                              */
+/* ------------------------------------------------------------- */
+/*   02.01 Paragraphs, Lists Etc.                                */
+/*   02.02 Headings                                              */
+/*   02.03 Links                                                 */
+
+/* ------------------------------------------------------------- */
+/*   03. Components                                              */
+/* ------------------------------------------------------------- */
+/*   03.01 Forms and Inputs                                      */
+/*   03.02 Buttons                                               */
+/*   03.03 Navigation (Menus Or Breadcrumbs)                     */
+/*   03.04 Grid Overlay: Three Lines on Page                     */
+/*   03.05 Header                                                */
+/*   03.06 Footer                                                */
+/*   03.07 SideBar                                               */
+/*   03.08 Timer                                                 */
+/*   03.09 Social Media Icons                                    */
+
+/* ------------------------------------------------------------- */
+/*   04. Section                                                 */
+/* ------------------------------------------------------------- */
+/*   04.01 Coming Soon - Main Container                          */
+/*   04.02 Coming Soon Section                                   */
+/*   04.03 About Us                                              */
+/*   04.04 Contact Us                                            */
+
+/* ------------------------------------------------------------- */
+/*   05. Background Animations                                   */
+/* ------------------------------------------------------------- */
+/*   05.01 Image Ripple                                          */
+/*   05.02 Gradiant Effect                                       */
+/*   05.03 Gradiant Animation Effect Background                  */
+/*   05.04 Particles                                             */
+/*   05.05 Wave Effects                                          */
+/*   05.06 Box Animation Effects                                 */
+/*   05.07 Galaxy Effects                                        */
+/*   05.08 Background Image Effects                              */
+/*   05.09 KenBurn Effect                                        */
+/*   05.10 Video Effects                                         */
+/*   05.11 Fireflies Effects                                     */
+/*   05.12 Firework Effects                                      */
+/*   05.13 Waterpipe Effects                                     */
+/*   05.14 Lines Drop Effects                                    */
+/*   05.15 Bubble Effects                                        */
+/*   05.16 Ripple Effects                                        */
+/*   05.17 Shooting Star Effects                                 */
+
+
+
+
+   /* ==================================
+     05.16 Ripple Effects
+   ================================== */
+   
+   .ripples {
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     display: block;
+     left: 0;
+     width: 100%;
+     opacity: 0.35;
+   }
+   
+   .ripples > div {
+     background-color: var(--white-color);
+     border-radius: 50%;
+     height: 180vh;
+     width: 180vh;
+     opacity: 0;
+     position: fixed;
+     left: 50%;
+     top: 50%;
+     transform: scale(1) translateX(-50%) translateY(-50%);
+     animation: growAndFade 6s infinite ease-out;
+     -webkit-animation: growAndFade 6s infinite ease-out;
+   }
+   
+   .ripples .ripple1 {
+     animation-delay: 1s;
+   }
+   .ripples .ripple2 {
+     animation-delay: 2s;
+   }
+   .ripples .ripple3 {
+     animation-delay: 3s;
+   }
+   .ripples .ripple4 {
+     animation-delay: 4s;
+   }
+   .ripples .ripple5 {
+     animation-delay: 5s;
+   }
+   
+   @keyframes growAndFade {
+     0% {
+       opacity: 0.2;
+       height: 0vh;
+       width: 0vh;
+     }
+     100% {
+       opacity: 0;
+       height: 180vh;
+       width: 180vh;
+     }
+   }
+   
+  
